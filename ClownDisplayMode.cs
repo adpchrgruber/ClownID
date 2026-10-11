@@ -1,7 +1,7 @@
 using System.Drawing;
 using Rhino.Display;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>Creates and maintains the "Clown ID" display mode.</summary>
     internal static class ClownDisplayMode

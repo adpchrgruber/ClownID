@@ -5,7 +5,7 @@ using Rhino.Display;
 using Rhino.DocObjects;
 using Rhino.Geometry;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>
     /// In viewports using the Clown ID display mode: suppresses Rhino's own object drawing

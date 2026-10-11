@@ -4,7 +4,7 @@ using Rhino;
 using Rhino.Commands;
 using Rhino.Display;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>Toggles the active viewport between Clown ID and the mode it had before.</summary>
     public class ClownIdCommand : Command
@@ -19,7 +19,7 @@ namespace ClownId
         ///<summary>The only instance of this command.</summary>
         public static ClownIdCommand Instance { get; private set; }
 
-        public override string EnglishName => "ClownId";
+        public override string EnglishName => "ClownID";
 
         protected override Result RunCommand(RhinoDoc doc, RunMode mode)
         {
@@ -42,7 +42,7 @@ namespace ClownId
                 if (viewport.DisplayMode != null)
                     _previousModes[viewport.Id] = viewport.DisplayMode.Id;
                 viewport.DisplayMode = clown;
-                RhinoApp.WriteLine("Clown ID on in {0}. Run ClownId again to switch back.", viewport.Name);
+                RhinoApp.WriteLine("Clown ID on in {0}. Run ClownID again to switch back.", viewport.Name);
             }
             view.Redraw();
             return Result.Success;

@@ -12,7 +12,7 @@ using Rhino.DocObjects;
 using Rhino.Input;
 using Rhino.Input.Custom;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>
     /// Captures the active view as a clean clown pass (PNG, one exact colour per object,
@@ -20,7 +20,7 @@ namespace ClownId
     /// </summary>
     public class ClownIdCaptureCommand : Command
     {
-        public override string EnglishName => "ClownIdCapture";
+        public override string EnglishName => "ClownIDCapture";
 
         protected override Result RunCommand(RhinoDoc doc, RunMode mode)
         {

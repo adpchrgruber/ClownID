@@ -1,7 +1,7 @@
 using Rhino;
 using Rhino.PlugIns;
 
-namespace ClownId
+namespace ClownID
 {
     ///<summary>
     /// Clown ID: draws every object as one flat, unlit colour derived from its id

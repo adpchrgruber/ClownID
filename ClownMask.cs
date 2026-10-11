@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>Cleans up a captured clown pass so every pixel is exactly one palette colour.</summary>
     internal static class ClownMask

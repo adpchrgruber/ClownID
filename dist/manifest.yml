@@ -1,0 +1,16 @@
+name: ClownID
+version: 0.1.0
+authors:
+- adpchrgruber
+description: "Object-ID (clown) pass for Rhino 8: a display mode that draws every object in one flat colour from its id, and a capture command that exports a clean mask with a JSON colour key."
+url: https://github.com/adpchrgruber/ClownID
+icon: icon.png
+keywords:
+- clown
+- object-id
+- id-pass
+- mask
+- matte
+- render
+- compositing
+- display-mode

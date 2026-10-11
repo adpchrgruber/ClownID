@@ -12,10 +12,10 @@ using Rhino.PlugIns;
 [assembly: PlugInDescription(DescriptionType.Fax, "")]
 [assembly: PlugInDescription(DescriptionType.Organization, "")]
 [assembly: PlugInDescription(DescriptionType.UpdateUrl, "")]
-[assembly: PlugInDescription(DescriptionType.WebSite, "https://github.com/adpchrgruber/adp_adv_clown_id")]
+[assembly: PlugInDescription(DescriptionType.WebSite, "https://github.com/adpchrgruber/ClownID")]
 
 // Icons should be Windows .ico files and contain 32-bit images in the following sizes: 16, 24, 32, 48, and 256.
-[assembly: PlugInDescription(DescriptionType.Icon, "ClownId.EmbeddedResources.plugin-utility.ico")]
+[assembly: PlugInDescription(DescriptionType.Icon, "ClownID.EmbeddedResources.ClownID.ico")]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 // This will also be the Guid of the Rhino plug-in

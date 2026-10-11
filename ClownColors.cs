@@ -1,7 +1,7 @@
 using System;
 using System.Drawing;
 
-namespace ClownId
+namespace ClownID
 {
     /// <summary>Deterministic object id → colour mapping.</summary>
     internal static class ClownColors
