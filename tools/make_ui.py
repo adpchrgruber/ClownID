@@ -1,9 +1,9 @@
 """
 Generates ClownID's UI assets (standard library only):
 
-  EmbeddedResources/ClownID.ico   plug-in icon
+  resources/ClownID.ico           plug-in icon
   dist/icon.png                   package icon
-  ClownID.rui                     toolbar with ClownID and ClownIDCapture buttons
+  resources/ClownID.rui           toolbar with ClownID and ClownIDCapture buttons
 
 Run from the repository root:  python3 tools/make_ui.py
 GUIDs are fixed so Rhino keeps the toolbar's position and visibility across updates.
@@ -199,11 +199,11 @@ def main():
         f.write(png(256, 256, big))
     sizes = [16, 24, 32, 48, 256]
     images = [(s, png(s, s, big if s == 256 else render(mode_icon, s))) for s in sizes]
-    with open(os.path.join(ROOT, 'EmbeddedResources', 'ClownID.ico'), 'wb') as f:
+    with open(os.path.join(ROOT, 'resources', 'ClownID.ico'), 'wb') as f:
         f.write(ico(images))
-    with open(os.path.join(ROOT, 'ClownID.rui'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(ROOT, 'resources', 'ClownID.rui'), 'w', encoding='utf-8') as f:
         f.write(rui())
-    print('wrote dist/icon.png, EmbeddedResources/ClownID.ico, ClownID.rui')
+    print('wrote dist/icon.png, resources/ClownID.ico, resources/ClownID.rui')
 
 
 if __name__ == '__main__':
