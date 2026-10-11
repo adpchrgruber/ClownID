@@ -1,0 +1,22 @@
+{
+  "image": "clown-id-pass.png",
+  "document": "",
+  "view": "Perspective",
+  "width": 960,
+  "height": 600,
+  "background": "#000000",
+  "backgroundPixels": 329334,
+  "snappedEdgePixels": 2158,
+  "objects": [
+    {"color": "#A7BF5F", "id": "8204d001-1c5e-4681-8cd7-846d140e8335", "name": "", "layer": "ClownId_Test", "type": "Mesh", "pixels": 150634},
+    {"color": "#26D609", "id": "c3e78691-cfc1-4eed-b80b-e5008906add1", "name": "", "layer": "ClownId_Test", "type": "Brep", "pixels": 26514},
+    {"color": "#272063", "id": "4dad8da1-ca77-4207-be85-f472c98ec6ec", "name": "", "layer": "ClownId_Test", "type": "Brep", "pixels": 20341},
+    {"color": "#8AEFDA", "id": "ddfe7e50-d8b2-41c6-8242-2602ec468e99", "name": "", "layer": "ClownId_Test", "type": "Brep", "pixels": 15669},
+    {"color": "#8C946B", "id": "0caab2de-b4ab-403a-8f9f-2d6f9a11ccd7", "name": "", "layer": "ClownId_Test", "type": "Brep", "pixels": 14222},
+    {"color": "#AC2608", "id": "ec864270-862d-4517-b242-e88d53fe8004", "name": "", "layer": "Default", "type": "Brep", "pixels": 10727},
+    {"color": "#3DFC8E", "id": "35c4324d-39d8-47d0-9aef-6729e873a010", "name": "", "layer": "ClownId_Test", "type": "InstanceReference", "pixels": 4107},
+    {"color": "#307394", "id": "2b20c504-ffff-4b0f-9ba0-da5d980b2cf8", "name": "", "layer": "ClownId_Test", "type": "InstanceReference", "pixels": 3734},
+    {"color": "#195491", "id": "19cfd618-00f1-456f-9c8b-d59b60514689", "name": "", "layer": "ClownId_Test", "type": "Brep", "pixels": 718}
+  ],
+  "collisions": []
+}
