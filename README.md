@@ -8,7 +8,7 @@ unlit colour derived from its id. Pick an object's colour in Photoshop or Affini
 have a perfect selection that lines up with your render. Written in C# / RhinoCommon for
 Mac and Windows.
 
-> **Beta (0.9.0-beta).** Tested on Rhino 8 for Mac; Windows is untested so far.
+> **Beta (0.9.1-beta).** Tested on Rhino 8 for Mac; Windows is untested so far.
 
 | Shaded | ClownID |
 |---|---|
@@ -18,7 +18,7 @@ Mac and Windows.
 
 Rhino 8 (Mac or Windows):
 
-- **From the package file**: download [`dist/clownid-0.9.0-beta-rh8_0-any.yak`](dist/) and drag
+- **From the package file**: download [`dist/clownid-0.9.1-beta-rh8_0-any.yak`](dist/) and drag
   it into a Rhino window. Restart Rhino.
 - **Or from the command line**, with this repository checked out:
 
@@ -30,6 +30,9 @@ Rhino 8 (Mac or Windows):
   Mac, `C:\Program Files\Rhino 8\System\Yak.exe` on Windows.
 
 ## Usage
+
+Both commands are also on the **ClownID** toolbar, which appears as its own tab next to
+Rhino's other toolbars: the left button is **ClownID**, the right one **ClownIDCapture**.
 
 **ClownID** → switches the active viewport to the *Clown ID* display mode; run it again to
 switch back to the mode it had before. You can also pick *Clown ID* from any viewport's
@@ -93,6 +96,7 @@ yak push dist/clownid-<version>-rh8_0-any.yak
 | `ClownIdCommand.cs` | `ClownID`, the viewport toggle. |
 | `ClownIdCaptureCommand.cs` | `ClownIDCapture`: captures the view, snaps edges, writes PNG and JSON. |
 | `ClownMask.cs` | Snaps off-palette edge pixels to the closest exact neighbour colour. |
+| `ClownID.rui` | The toolbar. Generated, together with the icons, by `tools/make_ui.py`. |
 
 Quirks of the Rhino 8 display pipeline this works around:
 

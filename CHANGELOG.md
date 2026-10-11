@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.1-beta — 2026-10-11
+
+- **ClownID toolbar**: both commands as buttons, in a ClownID tab next to Rhino's other
+  toolbars. Installed with the package.
+
 ## 0.9.0-beta — 2026-10-11
 
 First public beta of **ClownID**, a Rhino 8 plug-in that shows the clown pass (object-ID
