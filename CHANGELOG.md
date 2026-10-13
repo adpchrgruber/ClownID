@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.2-beta — 2026-10-14
+
+- **Much faster orbiting in Clown ID.** Object meshes are now kept between frames instead
+  of being fetched from Rhino and re-uploaded to the graphics card on every frame. In a
+  2,000-object test scene a frame dropped from ~290 ms to ~37 ms, as fast as Shaded.
+  Kept meshes are dropped when an object is edited, moved or deleted, when a block
+  definition changes, and when render mesh settings change.
+
 ## 0.9.1-beta — 2026-10-11
 
 - **ClownID toolbar**: both commands as buttons, in a ClownID tab next to Rhino's other

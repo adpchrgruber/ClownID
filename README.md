@@ -8,7 +8,7 @@ unlit colour derived from its id. Pick an object's colour in Photoshop or Affini
 have a perfect selection that lines up with your render. Written in C# / RhinoCommon for
 Mac and Windows.
 
-> **Beta (0.9.1-beta).** Tested on Rhino 8 for Mac; Windows is untested so far.
+> **Beta (0.9.2-beta).** Tested on Rhino 8 for Mac; Windows is untested so far.
 
 | Shaded | ClownID |
 |---|---|
@@ -18,7 +18,7 @@ Mac and Windows.
 
 Rhino 8 (Mac or Windows):
 
-- **From the package file**: download [`dist/clownid-0.9.1-beta-rh8_0-any.yak`](dist/) and drag
+- **From the package file**: download [`dist/clownid-0.9.2-beta-rh8_0-any.yak`](dist/) and drag
   it into a Rhino window. Restart Rhino.
 - **Or from the command line**, with this repository checked out:
 

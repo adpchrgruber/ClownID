@@ -16,7 +16,7 @@
 
   <PropertyGroup>
     <!-- Specifies information for Assembly and Yak -->
-    <Version>0.9.1-beta</Version>
+    <Version>0.9.2-beta</Version>
     <Title>ClownID</Title>
     <Authors>adpchrgruber</Authors>
     <Company>adpchrgruber</Company>
